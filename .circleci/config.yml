@@ -163,7 +163,7 @@ workflows:
   version: 2
   build_test_and_deploy:
     jobs:
-      - documentation
+      - deploy_production
 #      - build
 #      - test_api_v16:
 #          requires:
